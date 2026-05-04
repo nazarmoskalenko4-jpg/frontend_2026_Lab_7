@@ -33,7 +33,6 @@ export default function AdminInventoryEdit() {
       const description = formData.get('description');
       
       // Відправляємо PUT /inventory/:id (Текст)
-      // Зверни увагу: бекенд очікує поле "name", а не "inventory_name"
       await inventoryApi.updateText(id, { name, description });
 
       // 2. Якщо користувач вибрав нове фото, робимо другий запит

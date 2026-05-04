@@ -29,7 +29,6 @@ export const inventoryApi = {
   },
 
   // 1. Оновлення текстових даних (PUT /inventory/:id)
-  // Формат JSON. Пам'ятай: тут треба передавати { name: "...", description: "..." }
   updateText: async (id, data) => {
     const response = await api.put(`/inventory/${id}`, data);
     return response.data;

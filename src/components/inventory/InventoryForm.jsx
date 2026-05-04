@@ -21,7 +21,7 @@ export default function InventoryForm({ onSubmit, initialData = null, isEdit = f
     e.preventDefault();
     setError('');
 
-    // Валідація обов'язкового поля згідно з методичкою
+    // Валідація обов'язкового поля 
     if (!formData.inventory_name.trim()) {
       setError('Назва інвентарю є обов\'язковою!');
       return;

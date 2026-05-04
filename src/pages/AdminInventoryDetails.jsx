@@ -12,7 +12,7 @@ export default function AdminInventoryDetails() {
     const fetchItem = async () => {
       try {
         setIsLoading(true);
-        // Робимо запит GET /inventory/:id згідно з методичкою
+        // Робимо запит GET /inventory/:id 
         const data = await inventoryApi.getById(id);
         setItem(data);
       } catch (err) {
