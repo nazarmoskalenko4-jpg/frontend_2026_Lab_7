@@ -19,7 +19,7 @@ function App() {
         alignItems: 'center',
         marginBottom: '30px'
       }}>
-        <h1 style={{ margin: 0, color: '#3b82f6', fontSize: '1.5rem' }}>Склад UI</h1>
+        <h1 style={{ margin: 0, color: '#3b82f6', fontSize: '1.5rem' }}>Склад PC</h1>
         
         <div style={{ display: 'flex', gap: '20px', alignItems: 'center' }}>
           {/* Користувацьке меню */}
